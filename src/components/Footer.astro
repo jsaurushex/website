@@ -3,16 +3,71 @@ const today = new Date();
 ---
 
 <footer>
-  <p class="mr-10">🌥️</p>
-  <p class="text-xl">---🦕----🦕---</p>
+  <div id="scene">
+    <div id="sun">....🌤️..☁️....☁️☁️........</div>
+    <div id="dinos">
+      ...🦕......🦕..🦕.........🦕......🦕..🦕..................🦕..............🦕....
+    </div>
+  </div>
   <p class="text-xs">
     &copy; {today.getFullYear()} JSaurus, all rights reserved.
   </p>
   <p class="text-xs">JSaurus | Randstad 22/46, 1316BZ Almere | KvK 88270793</p>
 </footer>
+
 <style>
   footer {
-    padding: 25px;
+    padding: 70px;
     text-align: center;
   }
+  #scene {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    height: 2.5em;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+  }
+  #dinos {
+    position: absolute;
+    display: block;
+    width: 1200px;
+    left: -600px;
+    /* right: -100px; */
+    font-size: 2em;
+    color: white;
+  }
+  #sun {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    color: white;
+    top: 0px;
+    font-size: 0.9em;
+  }
 </style>
+
+<script>
+  const sun = document.getElementById("sun");
+  const dinos = document.getElementById("dinos");
+
+  function animateDinos() {
+    const str = dinos.innerHTML.split("");
+    str.push(str.shift());
+    dinos.innerHTML = str.join("");
+  }
+
+  function animateSun() {
+    const str = sun.innerHTML.split("");
+    str.unshift(str.pop());
+    str.unshift(str.pop());
+    sun.innerHTML = str.join("");
+  }
+
+  setInterval(() => {
+    animateDinos();
+  }, 1500);
+</script>

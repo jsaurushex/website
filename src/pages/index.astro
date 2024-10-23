@@ -5,7 +5,7 @@ import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
@@ -14,15 +14,73 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
     <Header title={SITE_TITLE} />
     <main>
       <!-- <h1>---🦕----🦕---</h1> -->
-      <p class="text-stone-700">
-        Hi, my name is Paweł and I am freelance JavaScript developer with over a
-        decade of experience.
+      <p id="intro" class="text-stone-700 indent-8 transition-all duration-100">
       </p>
-      <p class="mt-10 text-yellow-500 text-xs">
-        This is a brand new website and is currently still under construction.
-        More useful information will be coming soon!
+      <p
+        id="contact"
+        class="text-stone-700 mt-4 transition-opacity opacity-0 duration-1000 text-tab"
+      >
+        <a
+          href="mailto:hello@jsaur.us"
+          class="decoration-purple-400 text-stone-700 underline decoration-wavy decoration-1 hover:decoration-4"
+          >💬 Let's talk</a
+        > and explore how we can work together to achieve your goals.
       </p>
     </main>
     <Footer />
   </body>
 </html>
+
+<script>
+  const intro = document.getElementById("intro");
+  const introText = `Hi, I'm Paul, a well seasoned JavaScript developer with over 15 years of
+        experience in web development. 
+        
+        I've journeyed from the ancient lands of
+        JavaScript 3.0 to the shiny realms of ES2024, leaving no framework
+        unexplored. From jQuery, Knockout and Angular.js to Svelte, React, Astro
+        and other new shiny things, I've adapted to the ever-changing landscape
+        of web development. My expertise also extends to backend technologies
+        and databases such as Node, Express, MongoDB, PostgreSQL, and Redis, as
+        well as deployment and cloud solutions like Docker and AWS. As a
+        versatile developer, I'm equally comfortable crafting efficient
+        front-end interfaces and architecting robust back-end solutions. Whether
+        you're looking to create simple website, modernize your old one or build
+        an advance new application from the ground up, I'm here to help.`;
+  const str = introText.split("");
+
+  function animateIntro() {
+    if (Math.random() > 0.4) {
+      return;
+    }
+    const current = intro.innerHTML.split(""); // split the string into an array of characters
+    current.push(str.shift());
+    intro.innerHTML = current.join("");
+  }
+
+  function showContact(time: number) {
+    setTimeout(() => {
+      const contact = document.getElementById("contact");
+      contact.classList.remove("opacity-0");
+      contact.classList.add("opacity-100");
+    }, time);
+  }
+  const interval = setInterval(() => {
+    if (str.length === 0) {
+      localStorage.setItem("intro", new Date().getTime().toString());
+      showContact(700);
+      clearInterval(interval);
+    }
+    if (
+      localStorage.getItem("intro") &&
+      new Date(parseInt(localStorage.getItem("intro") || "")).getTime() >
+        new Date().getTime() - 7 * 24 * 60 * 60 * 1000
+    ) {
+      intro.innerHTML = introText;
+      showContact(200);
+      clearInterval(interval);
+      return;
+    }
+    animateIntro();
+  }, 10);
+</script>
