@@ -21,6 +21,7 @@ Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o st
 <!-- the index — one line per closed ticket -->
 
 - [Architektura i18n pod EN / NL / PL](issues/03-architektura-i18n-pod-en-nl-pl.md) — EN pod `/`, NL/PL później pod `/nl/` `/pl/`; od dnia 1 konfiguracja `i18n` z samym `en`, słownik UI, `hreflang` i sitemap; bez `fallback`/`domains`.
+- [Kontakt na stronie statycznej — opcje](issues/04-kontakt-na-stronie-statycznej.md) — `mailto:` wystarcza jako rdzeń; jeśli formularz, to czysty HTML + honeypot na usłudze z UE (Formward); booking tylko jako link; bez reCAPTCHA i Web3Forms. Wybór zapada w strukturze strony.
 
 ## Not yet specified
 
