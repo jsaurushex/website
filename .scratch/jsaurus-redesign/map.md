@@ -24,11 +24,11 @@ Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o st
 - [Kontakt na stronie statycznej — opcje](issues/04-kontakt-na-stronie-statycznej.md) — `mailto:` wystarcza jako rdzeń; jeśli formularz, to czysty HTML + honeypot na usłudze z UE (Formward); booking tylko jako link; bez reCAPTCHA i Web3Forms. Wybór zapada w strukturze strony.
 - [Dla kogo jest strona i co oferujesz](issues/01-dla-kogo-jest-strona-i-co-oferujesz.md) — strona uwiarygadnia i mówi tylko do Klienta (MŚP bez IT, NL/PL); Modernizacja jako wiodąca usługa, potem aplikacje, strony firmowe, utrzymanie; bez cen; główna akcja: wiadomość.
 - [Warianty Logo z Affinity](issues/02-warianty-logo-z-affinity.md) — Sygnet jako czyste SVG w dwóch wersjach (płaska do małych rozmiarów, z cieniem do dużych); Logotyp na razie składany fontem Oxanium; w kodzie `logomark`/`wordmark`.
+- [Charakter i ton marki](issues/05-charakter-i-ton-marki.md) — konkretny, spokojnie doświadczony, osobisty, uczciwy, z przymrużeniem oka; humor w detalach + jedno mrugnięcie w hero; metafory tylko wokół Modernizacji; prosty angielski; efekt pisania znika, easter egg w stopce zostaje w nowej formie.
 
 ## Not yet specified
 
 - **Szczegóły techniczne strony**: tryb ciemny (czy i jak Sygnet działa na ciemnym tle), obraz OG/social, favicony i ikony aplikacji z Sygnetu, podstawy SEO (sitemap, meta, dane strukturalne firmy), dostępność (kontrast żółci `#FFE406` na bieli!), budżet wydajności. Do rozbicia, gdy znany będzie język wizualny i struktura.
-- **Losy obecnych animacji**: efekt pisania intro i pasek dinozaurów w stopce — zależą od charakteru marki i języka wizualnego; pewnie wpadną do ticketu o języku wizualnym albo osobnego o ruchu.
 
 ## Out of scope
 
