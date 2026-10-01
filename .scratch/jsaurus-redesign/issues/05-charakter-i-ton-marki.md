@@ -29,3 +29,7 @@ Rozstrzygnięte w grillingu z właścicielem (2026-10-01). Wszystkie rekomendacj
 - **Rejestr:** prosty, międzynarodowy angielski (~B2) — krótkie zdania, bez idiomów i slangu; humor zrozumiały bez kontekstu anglosaskiego (ułatwia też tłumaczenia NL/PL).
 - **Imię:** „Paul” w EN i NL, „Paweł” w PL; pełne „Paweł Józefowski” tam, gdzie liczy się wiarygodność (stopka, dane firmy, „o mnie”).
 - **Animacje:** efekt pisania intro **znika** (treść i kontakt dostępne od razu). Pasek emoji 🦕 w stopce znika jako emoji, ale **idea ruchomego easter egga w stopce zostaje** w nowej formie zgodnej z Sygnetem (np. przemykające ślady pazurów) — formę ustala „Język wizualny”.
+
+## Comments
+
+- Zmienione przez „Język wizualny”: ruchomy easter egg w stopce odpada — stopka jest cicha, easter eggiem jest wciskająca się Pieczątka; animacja pazurów trafia na stronę 404.

@@ -28,6 +28,10 @@ _Avoid_: ikona, emoji 🦖 (dawny zastępczy znak)
 Obrazkowa część Logo: żółty zaokrąglony kwadrat z trzema śladami pazurów, w wersji płaskiej albo z twardym czarnym cieniem; może występować samodzielnie. W kodzie i nazwach plików: `logomark`.
 _Avoid_: ikona, avatar, „kwadrat”, signet
 
+**Pieczątka**:
+Sposób użycia Sygnetu z cieniem, obróconego o −7°, jak odbita pieczątka; najbardziej widoczna forma Logo na stronie, używana najwyżej 1–2 razy. Zasada użycia, nie osobna wersja Logo. W kodzie: `stamp`.
+_Avoid_: obrócone logo, naklejka
+
 **Logotyp**:
 Napisowa część Logo: słowo „jsaurus” pisane małymi literami (Oxanium SemiBold, rozstrzelone). W kodzie i nazwach plików: `wordmark`.
 _Avoid_: napis, nazwa
