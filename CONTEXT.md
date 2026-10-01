@@ -25,12 +25,12 @@ Oficjalny znak graficzny JSaurus — **Sygnet** i **Logotyp** zestawione razem; 
 _Avoid_: ikona, emoji 🦖 (dawny zastępczy znak)
 
 **Sygnet**:
-Obrazkowa część Logo: żółty zaokrąglony kwadrat z twardym czarnym cieniem i trzema śladami pazurów; może występować samodzielnie.
-_Avoid_: ikona, avatar, „kwadrat”
+Obrazkowa część Logo: żółty zaokrąglony kwadrat z trzema śladami pazurów, w wersji płaskiej albo z twardym czarnym cieniem; może występować samodzielnie. W kodzie i nazwach plików: `logomark`.
+_Avoid_: ikona, avatar, „kwadrat”, signet
 
 **Logotyp**:
-Napisowa część Logo: słowo „jsaurus” pisane małymi literami.
-_Avoid_: napis, nazwa, wordmark
+Napisowa część Logo: słowo „jsaurus” pisane małymi literami (Oxanium SemiBold, rozstrzelone). W kodzie i nazwach plików: `wordmark`.
+_Avoid_: napis, nazwa
 
 **Język wizualny**:
 Spójny zestaw reguł wyglądu marki — kolory, typografia, zasady użycia logo, charakter ilustracji i ruchu — z którego wynika wygląd strony.

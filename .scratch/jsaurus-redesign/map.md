@@ -10,7 +10,7 @@ Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o st
 
 - Domena: firmowa strona jednoosobowej firmy programistycznej — słownik w [CONTEXT.md](../../CONTEXT.md) (JSaurus, Logo, Sygnet, Logotyp, Język wizualny). Komunikacja osobista, 1. osoba l.poj.
 - Stałe ustalenia: Astro + Tailwind zostają (reszta stacku do dyskusji); strona **statyczna**, wdrażana z VPS; repo docelowe `jsaurushex/website`; Logo jest **finalne** (język wizualny buduje się wokół niego); charakter „lekko zabawny, bez przegięcia”.
-- Logo: `src/assets/brand/logo.svg` — żółty (`#FFE406`) zaokrąglony kwadrat z twardym czarnym cieniem i śladami pazurów + logotyp „jsaurus” w Oxanium SemiBold.
+- Logo: Sygnet w `src/assets/brand/logomark.svg` (płaski) i `logomark-shadow.svg` (z twardym cieniem) — żółty (`#FFE406`) zaokrąglony kwadrat ze śladami pazurów; Logotyp „jsaurus” składany fontem Oxanium SemiBold (brak pliku). Oryginał z Logotypem w historii gita (`5af9680:src/assets/brand/logo.svg`).
 - Specyfikacja zawiera przekaz i szkic tekstów; finalne dopracowanie tekstów następuje przy implementacji.
 - Skille: `/grilling` + `/domain-modeling` dla grillingów; `/prototype` i `frontend-design:frontend-design` dla prototypów wizualnych; Context7 dla dokumentacji bibliotek.
 - Poza mapą (robione osobno): aktualizacja zależności do najnowszych wersji i przeniesienie kodu do `jsaurushex/website`.
@@ -23,6 +23,7 @@ Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o st
 - [Architektura i18n pod EN / NL / PL](issues/03-architektura-i18n-pod-en-nl-pl.md) — EN pod `/`, NL/PL później pod `/nl/` `/pl/`; od dnia 1 konfiguracja `i18n` z samym `en`, słownik UI, `hreflang` i sitemap; bez `fallback`/`domains`.
 - [Kontakt na stronie statycznej — opcje](issues/04-kontakt-na-stronie-statycznej.md) — `mailto:` wystarcza jako rdzeń; jeśli formularz, to czysty HTML + honeypot na usłudze z UE (Formward); booking tylko jako link; bez reCAPTCHA i Web3Forms. Wybór zapada w strukturze strony.
 - [Dla kogo jest strona i co oferujesz](issues/01-dla-kogo-jest-strona-i-co-oferujesz.md) — strona uwiarygadnia i mówi tylko do Klienta (MŚP bez IT, NL/PL); Modernizacja jako wiodąca usługa, potem aplikacje, strony firmowe, utrzymanie; bez cen; główna akcja: wiadomość.
+- [Warianty Logo z Affinity](issues/02-warianty-logo-z-affinity.md) — Sygnet jako czyste SVG w dwóch wersjach (płaska do małych rozmiarów, z cieniem do dużych); Logotyp na razie składany fontem Oxanium; w kodzie `logomark`/`wordmark`.
 
 ## Not yet specified
 
@@ -35,5 +36,6 @@ Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o st
 - **Wdrożenie na VPS** (serwer, CI/CD, przepięcie DNS z GitHub Pages) — wykonanie, nie decyzja tej mapy.
 - **Finalne dopracowanie tekstów** — dzieje się przy implementacji.
 - **Oferta dla Agencji partnerskich na stronie** — agencje są pozyskiwane innymi kanałami ([Dla kogo jest strona i co oferujesz](issues/01-dla-kogo-jest-strona-i-co-oferujesz.md)).
+- **Komplet plików Logo** (Logotyp w krzywych, warianty poziomy/pionowy) — praca nad plikami, na którą nie czeka żadna decyzja; do zrobienia kiedykolwiek ([Warianty Logo z Affinity](issues/02-warianty-logo-z-affinity.md)).
 - **Cennik / pakiety cenowe** — świadomie brak cen na stronie, zawsze wycena po rozmowie ([Dla kogo jest strona i co oferujesz](issues/01-dla-kogo-jest-strona-i-co-oferujesz.md)).
 - **Tłumaczenia NL/PL i przełącznik języka** — architektura jest na nie gotowa ([Architektura i18n pod EN / NL / PL](issues/03-architektura-i18n-pod-en-nl-pl.md)), ale start jest tylko po angielsku.
