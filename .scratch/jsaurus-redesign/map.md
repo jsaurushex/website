@@ -22,16 +22,18 @@ Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o st
 
 - [Architektura i18n pod EN / NL / PL](issues/03-architektura-i18n-pod-en-nl-pl.md) — EN pod `/`, NL/PL później pod `/nl/` `/pl/`; od dnia 1 konfiguracja `i18n` z samym `en`, słownik UI, `hreflang` i sitemap; bez `fallback`/`domains`.
 - [Kontakt na stronie statycznej — opcje](issues/04-kontakt-na-stronie-statycznej.md) — `mailto:` wystarcza jako rdzeń; jeśli formularz, to czysty HTML + honeypot na usłudze z UE (Formward); booking tylko jako link; bez reCAPTCHA i Web3Forms. Wybór zapada w strukturze strony.
+- [Dla kogo jest strona i co oferujesz](issues/01-dla-kogo-jest-strona-i-co-oferujesz.md) — strona uwiarygadnia i mówi tylko do Klienta (MŚP bez IT, NL/PL); Modernizacja jako wiodąca usługa, potem aplikacje, strony firmowe, utrzymanie; bez cen; główna akcja: wiadomość.
 
 ## Not yet specified
 
 - **Szczegóły techniczne strony**: tryb ciemny (czy i jak Sygnet działa na ciemnym tle), obraz OG/social, favicony i ikony aplikacji z Sygnetu, podstawy SEO (sitemap, meta, dane strukturalne firmy), dostępność (kontrast żółci `#FFE406` na bieli!), budżet wydajności. Do rozbicia, gdy znany będzie język wizualny i struktura.
 - **Losy obecnych animacji**: efekt pisania intro i pasek dinozaurów w stopce — zależą od charakteru marki i języka wizualnego; pewnie wpadną do ticketu o języku wizualnym albo osobnego o ruchu.
-- **Dowody wiarygodności**: czy i jakie referencje, case studies, logotypy klientów, opinie — wyjaśni się po ustaleniu grupy docelowej i struktury.
 
 ## Out of scope
 
 - **Blog / notatki** — świadomie odłożone; architektura nie powinna go blokować, ale go nie projektujemy.
 - **Wdrożenie na VPS** (serwer, CI/CD, przepięcie DNS z GitHub Pages) — wykonanie, nie decyzja tej mapy.
 - **Finalne dopracowanie tekstów** — dzieje się przy implementacji.
+- **Oferta dla Agencji partnerskich na stronie** — agencje są pozyskiwane innymi kanałami ([Dla kogo jest strona i co oferujesz](issues/01-dla-kogo-jest-strona-i-co-oferujesz.md)).
+- **Cennik / pakiety cenowe** — świadomie brak cen na stronie, zawsze wycena po rozmowie ([Dla kogo jest strona i co oferujesz](issues/01-dla-kogo-jest-strona-i-co-oferujesz.md)).
 - **Tłumaczenia NL/PL i przełącznik języka** — architektura jest na nie gotowa ([Architektura i18n pod EN / NL / PL](issues/03-architektura-i18n-pod-en-nl-pl.md)), ale start jest tylko po angielsku.

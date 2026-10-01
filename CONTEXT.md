@@ -8,6 +8,18 @@ Firmowa strona JSaurus — wizytówka jednoosobowej firmy programistycznej, któ
 Jednoosobowa firma programistyczna (zarejestrowana w KvK, Almere), której marka i właściciel mówią jednym, osobistym głosem w 1. osobie liczby pojedynczej. W tekście zawsze „JSaurus”; małe „jsaurus” istnieje tylko w **Logotypie**.
 _Avoid_: agencja, studio, software house, „my”, „jsaurus” / „Jsaurus” w treści
 
+**Klient**:
+Firma — zwykle MŚP bez własnego działu IT — która zleca JSaurus pracę i traktuje go jak „swojego programistę”; jedyny adresat strony.
+_Avoid_: użytkownik, odbiorca, customer
+
+**Agencja partnerska**:
+Agencja lub software house zlecająca JSaurus pracę pod własną marką (white-label); pozyskiwana i obsługiwana poza stroną.
+_Avoid_: Klient (to inna relacja), podwykonawca (to JSaurus jest podwykonawcą)
+
+**Modernizacja**:
+Przeniesienie istniejącego, starzejącego się systemu webowego na współczesną technologię tak, żeby biznes Klienta działał bez przerwy; wiodąca usługa JSaurus.
+_Avoid_: refaktoring, migracja, przepisanie (to techniki, nie usługa)
+
 **Logo**:
 Oficjalny znak graficzny JSaurus — **Sygnet** i **Logotyp** zestawione razem; punkt wyjścia dla całego języka wizualnego.
 _Avoid_: ikona, emoji 🦖 (dawny zastępczy znak)
