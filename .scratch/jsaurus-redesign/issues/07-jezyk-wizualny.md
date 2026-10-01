@@ -1,7 +1,7 @@
 # Język wizualny
 
 Type: prototype
-Status: open
+Status: claimed
 Blocked by: 05
 
 ## Question
