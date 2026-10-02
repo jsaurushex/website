@@ -9,7 +9,7 @@ Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o st
 ## Notes
 
 - Domena: firmowa strona jednoosobowej firmy programistycznej — słownik w [CONTEXT.md](../../CONTEXT.md) (JSaurus, Logo, Sygnet, Logotyp, Język wizualny). Komunikacja osobista, 1. osoba l.poj.
-- Stałe ustalenia: Astro + Tailwind zostają (reszta stacku do dyskusji); strona **statyczna**, wdrażana z VPS; repo docelowe `jsaurushex/website`; Logo jest **finalne** (język wizualny buduje się wokół niego); charakter „lekko zabawny, bez przegięcia”.
+- Stałe ustalenia: stack = Astro 7 + Tailwind v4 (bez daisyUI, bez frameworka UI, bez JS na starcie, fonty przez Fonts API); strona **statyczna**, wdrażana z VPS; repo docelowe `jsaurushex/website`; Logo jest **finalne** (język wizualny buduje się wokół niego); charakter „lekko zabawny, bez przegięcia”.
 - Logo: Sygnet w `src/assets/brand/logomark.svg` (płaski) i `logomark-shadow.svg` (z twardym cieniem) — żółty (`#FFE406`) zaokrąglony kwadrat ze śladami pazurów; Logotyp „jsaurus” składany fontem Oxanium SemiBold (brak pliku). Oryginał z Logotypem w historii gita (`5af9680:src/assets/brand/logo.svg`).
 - Specyfikacja zawiera przekaz i szkic tekstów; finalne dopracowanie tekstów następuje przy implementacji.
 - Skille: `/grilling` + `/domain-modeling` dla grillingów; `/prototype` i `frontend-design:frontend-design` dla prototypów wizualnych; Context7 dla dokumentacji bibliotek.
@@ -27,6 +27,7 @@ Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o st
 - [Warianty Logo z Affinity](issues/02-warianty-logo-z-affinity.md) — Sygnet jako czyste SVG w dwóch wersjach (płaska do małych rozmiarów, z cieniem do dużych); Logotyp na razie składany fontem Oxanium; w kodzie `logomark`/`wordmark`.
 - [Charakter i ton marki](issues/05-charakter-i-ton-marki.md) — konkretny, spokojnie doświadczony, osobisty, uczciwy, z przymrużeniem oka; humor w detalach + jedno mrugnięcie w hero; metafory tylko wokół Modernizacji; prosty angielski; efekt pisania znika, easter egg w stopce zostaje w nowej formie.
 - [Język wizualny](issues/07-jezyk-wizualny.md) — kierunek „List + naklejki”: biel, Literata + Oxanium, żółć tylko w przyciskach-naklejkach z twardym cieniem, Sygnecie i kresce metafory; Pieczątka (Sygnet z cieniem, −7°) jako główne Logo w marginesie, bez nagłówka; tylko tryb jasny; pazury na 404.
+- [daisyUI i system komponentów](issues/08-daisyui-i-system-komponentow.md) — daisyUI odchodzi; tokeny w `@theme` Tailwind v4; 7 komponentów Astro (BaseLayout, LetterLayout, Stamp, StickerButton, Section, Signature, ClawScratch); zero frameworków i JS; fonty przez Fonts API z Fontsource.
 
 ## Not yet specified
 
