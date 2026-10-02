@@ -1,7 +1,7 @@
 # daisyUI i system komponentów
 
 Type: grilling
-Status: open
+Status: claimed
 Blocked by: 07
 
 ## Question
