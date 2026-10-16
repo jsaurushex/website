@@ -1,7 +1,7 @@
 # Dowody wiarygodności
 
 Type: grilling
-Status: open
+Status: claimed
 Blocked by:
 
 ## Question
