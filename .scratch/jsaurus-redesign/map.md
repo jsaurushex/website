@@ -2,6 +2,8 @@ Labels: wayfinder:map
 
 # Przebudowa strony JSaurus
 
+**Status: zakończona (2026-10-16)** — wszystkie tickety rozstrzygnięte; następny krok to implementacja.
+
 ## Destination
 
 Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o stacku, wypracowany język wizualny oparty na Logo (kolory, typografia, zasady Logo, ruch, komponenty), struktura strony i przekaz ze szkicem treści (EN, architektura gotowa na NL i PL). Mapa kończy się, gdy nie zostaje nic do zdecydowania przed przebudową strony.
@@ -30,8 +32,11 @@ Gotowa do implementacji specyfikacja nowej strony JSaurus: podjęte decyzje o st
 - [daisyUI i system komponentów](issues/08-daisyui-i-system-komponentow.md) — daisyUI odchodzi; tokeny w `@theme` Tailwind v4; 7 komponentów Astro (BaseLayout, LetterLayout, Stamp, StickerButton, Section, Signature, ClawScratch); zero frameworków i JS; fonty przez Fonts API z Fontsource.
 - [Dowody wiarygodności](issues/09-dowody-wiarygodnosci.md) — bez nazw, rekomendacji i profili; dowodem są dwa ogólne akapity (wieloletnia platforma dla branży reklamowej, strony firmowe), liczby „15+ / 10+ years”, trzy zasady „How I work” i prawdziwe zdjęcie; stopka prawna NL z adresem, KvK, btw-id i e-mailem.
 - [Struktura strony i przekaz](issues/06-struktura-strony-i-przekaz.md) — jeden list pod `/` + `/privacy` + 404; kontakt tylko `mailto:` (przycisk + widoczny adres); bez analityki; kolejność: otwarcie → What I do → Who you'll work with → How I work → podpis; pełny szkic treści EN w tickecie.
+- [Szczegóły techniczne strony: OG, favicony, SEO, dostępność, wydajność](issues/10-szczegoly-techniczne-strony.md) — jeden statyczny OG; favicon.svg + .ico + apple-touch-icon, bez manifestu; JSON-LD `ProfessionalService`; adresy z ukośnikiem, sitemap i robots; WCAG 2.2 AA; Lighthouse 100, zero JS, `/` ≤ ~200 KB.
 
 ## Not yet specified
+
+<!-- pusto: mapa zakończona 2026-10-16 — nic nie zostało do zdecydowania przed przebudową -->
 
 
 ## Out of scope
