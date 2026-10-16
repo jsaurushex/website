@@ -2,7 +2,7 @@ Labels: wayfinder:map
 
 # Przebudowa strony JSaurus
 
-**Status: zakończona (2026-10-16)** — wszystkie tickety rozstrzygnięte; następny krok to implementacja.
+**Status: zakończona (2026-10-16)** — wszystkie tickety rozstrzygnięte; następny krok to implementacja według [spec.md](spec.md) (`ready-for-agent`).
 
 ## Destination
 
