@@ -1,7 +1,7 @@
 # Szczegóły techniczne strony: OG, favicony, SEO, dostępność, wydajność
 
 Type: grilling
-Status: open
+Status: claimed
 Blocked by:
 
 ## Question
